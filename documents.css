@@ -1,4 +1,3 @@
-/* ========== RECRUITMENT SECTION - BROWN ========== */
 
 .recruitment {
     background: var(--dark);
@@ -71,7 +70,6 @@
     50% { opacity: .5; }
 }
 
-/* Requirements */
 .requirements {
     margin: 1.5rem 0;
 }
@@ -100,7 +98,6 @@
     font-size: .8rem;
 }
 
-/* Form */
 .apply-form {
     margin-top: 1.5rem;
 }
@@ -152,32 +149,24 @@
     gap: 1rem;
 }
 
-/* =====================================================
-   DOKUMENTY – UKŁAD + HOVER (JAK NA 2. ZDJĘCIU)
-   ===================================================== */
-
-/* GRID – DESKTOP: 3 KARTY */
 .documents .docs-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
-/* TABLET: 2 KARTY */
 @media (max-width: 1100px) {
     .documents .docs-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* MOBILE: 1 KARTA */
 @media (max-width: 700px) {
     .documents .docs-grid {
         grid-template-columns: 1fr;
     }
 }
 
-/* KARTA */
 .documents .doc-card {
     background: linear-gradient(
         180deg,
@@ -199,31 +188,24 @@
         border-color .35s ease;
 }
 
-/* HOVER NA CAŁĄ KARTĘ (JAK NA SCREENIE) */
 .documents .doc-card:hover {
     transform: translateY(-6px);
     border-color: var(--accent);
     box-shadow: 0 28px 65px rgba(0,0,0,.45);
 }
 
-/* IKONA */
 .documents .doc-icon i {
     color: var(--accent);
     font-size: 1.8rem;
 }
 
-/* OPIS – KRÓTSZY, JAK NA SCREENIE */
 .documents .doc-card p {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
-/* =====================================================
-   DOKUMENTY – STAŁY UKŁAD 3 / 2 / 1
-   ===================================================== */
 
-/* DESKTOP – ZAWSZE 3 */
 .documents .docs-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -232,14 +214,12 @@
     margin: 0 auto;
 }
 
-/* TABLET – 2 */
 @media (max-width: 1100px) {
     .documents .docs-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* MOBILE – 1 */
 @media (max-width: 700px) {
     .documents .docs-grid {
         grid-template-columns: 1fr;
@@ -251,5 +231,6 @@
 
 
 }
+
 
 
